@@ -25,7 +25,7 @@ jobs:
 
       - name: Extract Android project
         run: |
-          unzip -q MSSDeliveryScanner-Android-Source-FIXED.zip -d extracted
+          unzip -q MSSDeliveryScanner-Android-Source-JVM17-FIXED.zip -d extracted
           test -f extracted/MSSDeliveryScanner/settings.gradle.kts
 
       - name: Build debug APK
